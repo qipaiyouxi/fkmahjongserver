@@ -14,9 +14,9 @@ var (
 
 // RootCmd represents the base command when called without any subcommands
 var RootCmd = &cobra.Command{
-	Use:   "qnmahjong",
-	Short: "Root server for qnmahjong",
-	Long:  `Root server for qnmahjong.`,
+	Use:   "fkmahjongserver",
+	Short: "Root server for fkmahjongserver",
+	Long:  `Root server for fkmahjongserver.`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	// Run: func(cmd *cobra.Command, args []string) {

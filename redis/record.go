@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"qnmahjong/def"
-	"qnmahjong/pf"
-	"qnmahjong/util"
+	"github.com/qipaiyouxi/fkmahjongserver/def"
+	"github.com/qipaiyouxi/fkmahjongserver/pf"
+	"github.com/qipaiyouxi/fkmahjongserver/util"
 )
 
 var (

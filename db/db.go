@@ -3,7 +3,7 @@ package db
 import (
 	"database/sql"
 	"fmt"
-	"qnmahjong/def"
+	"github.com/qipaiyouxi/fkmahjongserver/def"
 
 	log "github.com/Sirupsen/logrus"
 	_ "github.com/go-sql-driver/mysql"

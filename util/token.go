@@ -2,7 +2,7 @@ package util
 
 import (
 	"fmt"
-	"qnmahjong/def"
+	"github.com/qipaiyouxi/fkmahjongserver/def"
 	"time"
 
 	log "github.com/Sirupsen/logrus"

@@ -2,18 +2,18 @@ package main
 
 import (
 	"fmt"
+	"github.com/qipaiyouxi/fkmahjongserver/cmd"
+	"github.com/qipaiyouxi/fkmahjongserver/cron"
+	"github.com/qipaiyouxi/fkmahjongserver/db"
+	"github.com/qipaiyouxi/fkmahjongserver/logic"
+	"github.com/qipaiyouxi/fkmahjongserver/login"
+	"github.com/qipaiyouxi/fkmahjongserver/pay"
+	"github.com/qipaiyouxi/fkmahjongserver/redis"
+	"github.com/qipaiyouxi/fkmahjongserver/sale"
+	"github.com/qipaiyouxi/fkmahjongserver/tool"
+	"github.com/qipaiyouxi/fkmahjongserver/util"
 	"os"
 	"os/signal"
-	"qnmahjong/cmd"
-	"qnmahjong/cron"
-	"qnmahjong/db"
-	"qnmahjong/logic"
-	"qnmahjong/login"
-	"qnmahjong/pay"
-	"qnmahjong/redis"
-	"qnmahjong/sale"
-	"qnmahjong/tool"
-	"qnmahjong/util"
 	"syscall"
 )
 

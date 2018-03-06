@@ -2,14 +2,14 @@ package cmd
 
 import (
 	"fmt"
-	"qnmahjong/cache"
-	"qnmahjong/cron"
-	"qnmahjong/db"
-	"qnmahjong/log"
-	"qnmahjong/logic"
-	"qnmahjong/notice"
-	"qnmahjong/redis"
-	"qnmahjong/util"
+	"github.com/qipaiyouxi/fkmahjongserver/cache"
+	"github.com/qipaiyouxi/fkmahjongserver/cron"
+	"github.com/qipaiyouxi/fkmahjongserver/db"
+	"github.com/qipaiyouxi/fkmahjongserver/log"
+	"github.com/qipaiyouxi/fkmahjongserver/logic"
+	"github.com/qipaiyouxi/fkmahjongserver/notice"
+	"github.com/qipaiyouxi/fkmahjongserver/redis"
+	"github.com/qipaiyouxi/fkmahjongserver/util"
 
 	"github.com/spf13/cobra"
 )
@@ -17,8 +17,8 @@ import (
 // logicCmd represents the logic command
 var logicCmd = &cobra.Command{
 	Use:   "logic",
-	Short: "Logic server for qnmahjong",
-	Long:  `Logic server for qnmahjong.`,
+	Short: "Logic server for fkmahjongserver",
+	Long:  `Logic server for fkmahjongserver.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		// TODO: Work your own magic here
 		fmt.Println("logic called")

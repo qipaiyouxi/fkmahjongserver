@@ -1,10 +1,10 @@
 package cache
 
 import (
-	"qnmahjong/db"
-	"qnmahjong/db/dao"
-	"qnmahjong/def"
-	"qnmahjong/util"
+	"github.com/qipaiyouxi/fkmahjongserver/db"
+	"github.com/qipaiyouxi/fkmahjongserver/db/dao"
+	"github.com/qipaiyouxi/fkmahjongserver/def"
+	"github.com/qipaiyouxi/fkmahjongserver/util"
 	"sort"
 	"sync"
 	"time"

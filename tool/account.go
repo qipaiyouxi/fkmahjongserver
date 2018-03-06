@@ -1,12 +1,12 @@
 package tool
 
 import (
-	"qnmahjong/cache"
-	"qnmahjong/db"
-	"qnmahjong/db/dao"
-	"qnmahjong/def"
-	"qnmahjong/notice"
-	"qnmahjong/util"
+	"github.com/qipaiyouxi/fkmahjongserver/cache"
+	"github.com/qipaiyouxi/fkmahjongserver/db"
+	"github.com/qipaiyouxi/fkmahjongserver/db/dao"
+	"github.com/qipaiyouxi/fkmahjongserver/def"
+	"github.com/qipaiyouxi/fkmahjongserver/notice"
+	"github.com/qipaiyouxi/fkmahjongserver/util"
 
 	log "github.com/Sirupsen/logrus"
 )

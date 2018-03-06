@@ -1,10 +1,10 @@
 package zz
 
 import (
-	"qnmahjong/cache"
-	"qnmahjong/def"
-	"qnmahjong/pf"
-	"qnmahjong/util"
+	"github.com/qipaiyouxi/fkmahjongserver/cache"
+	"github.com/qipaiyouxi/fkmahjongserver/def"
+	"github.com/qipaiyouxi/fkmahjongserver/pf"
+	"github.com/qipaiyouxi/fkmahjongserver/util"
 	"time"
 
 	"github.com/olahol/melody"

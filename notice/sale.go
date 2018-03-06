@@ -1,8 +1,8 @@
 package notice
 
 import (
-	"qnmahjong/cache"
-	"qnmahjong/def"
+	"github.com/qipaiyouxi/fkmahjongserver/cache"
+	"github.com/qipaiyouxi/fkmahjongserver/def"
 	"net/rpc"
 
 	log "github.com/Sirupsen/logrus"

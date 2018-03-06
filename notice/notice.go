@@ -1,7 +1,7 @@
 package notice
 
 import (
-	"qnmahjong/def"
+	"github.com/qipaiyouxi/fkmahjongserver/def"
 	"net"
 	"net/http"
 	"net/rpc"

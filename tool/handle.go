@@ -2,12 +2,12 @@ package tool
 
 import (
 	"encoding/json"
+	"github.com/qipaiyouxi/fkmahjongserver/cache"
+	"github.com/qipaiyouxi/fkmahjongserver/db"
+	"github.com/qipaiyouxi/fkmahjongserver/db/dao"
+	"github.com/qipaiyouxi/fkmahjongserver/notice"
+	"github.com/qipaiyouxi/fkmahjongserver/util"
 	"io/ioutil"
-	"qnmahjong/cache"
-	"qnmahjong/db"
-	"qnmahjong/db/dao"
-	"qnmahjong/notice"
-	"qnmahjong/util"
 	"net/http"
 	"strconv"
 

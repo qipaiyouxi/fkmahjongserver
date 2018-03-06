@@ -1,9 +1,9 @@
 package zz
 
 import (
-	"qnmahjong/cache"
-	"qnmahjong/def"
-	"qnmahjong/pf"
+	"github.com/qipaiyouxi/fkmahjongserver/cache"
+	"github.com/qipaiyouxi/fkmahjongserver/def"
+	"github.com/qipaiyouxi/fkmahjongserver/pf"
 )
 
 type Config struct {

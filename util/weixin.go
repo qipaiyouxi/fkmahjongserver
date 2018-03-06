@@ -2,8 +2,8 @@ package util
 
 import (
 	"encoding/json"
+	"github.com/qipaiyouxi/fkmahjongserver/def"
 	"io/ioutil"
-	"qnmahjong/def"
 	"net/http"
 
 	log "github.com/Sirupsen/logrus"

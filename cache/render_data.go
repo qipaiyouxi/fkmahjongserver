@@ -2,7 +2,7 @@ package cache
 
 import (
 	"fmt"
-	"qnmahjong/db/dao"
+	"github.com/qipaiyouxi/fkmahjongserver/db/dao"
 )
 
 type UserCardsRD struct {

@@ -1,10 +1,10 @@
 package sale
 
 import (
-	"qnmahjong/cache"
-	"qnmahjong/def"
-	"qnmahjong/notice"
-	"qnmahjong/util"
+	"github.com/qipaiyouxi/fkmahjongserver/cache"
+	"github.com/qipaiyouxi/fkmahjongserver/def"
+	"github.com/qipaiyouxi/fkmahjongserver/notice"
+	"github.com/qipaiyouxi/fkmahjongserver/util"
 	"net/http"
 	"strconv"
 

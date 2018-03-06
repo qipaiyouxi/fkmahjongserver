@@ -15,8 +15,8 @@ var (
 // versionCmd represents the version command
 var versionCmd = &cobra.Command{
 	Use:   "version",
-	Short: "Version server for qnmahjong",
-	Long:  `Version server for qnmahjong.`,
+	Short: "Version server for fkmahjongserver",
+	Long:  `Version server for fkmahjongserver.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		// TODO: Work your own magic here
 		fmt.Println("version called")

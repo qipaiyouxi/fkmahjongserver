@@ -1,7 +1,7 @@
 package tool
 
 import (
-	"qnmahjong/cache"
+	"github.com/qipaiyouxi/fkmahjongserver/cache"
 	"net/http"
 	"time"
 

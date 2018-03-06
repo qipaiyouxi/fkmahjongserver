@@ -2,13 +2,13 @@ package cmd
 
 import (
 	"fmt"
-	"qnmahjong/cache"
-	"qnmahjong/cron"
-	"qnmahjong/db"
-	"qnmahjong/log"
-	"qnmahjong/notice"
-	"qnmahjong/sale"
-	"qnmahjong/util"
+	"github.com/qipaiyouxi/fkmahjongserver/cache"
+	"github.com/qipaiyouxi/fkmahjongserver/cron"
+	"github.com/qipaiyouxi/fkmahjongserver/db"
+	"github.com/qipaiyouxi/fkmahjongserver/log"
+	"github.com/qipaiyouxi/fkmahjongserver/notice"
+	"github.com/qipaiyouxi/fkmahjongserver/sale"
+	"github.com/qipaiyouxi/fkmahjongserver/util"
 
 	"github.com/spf13/cobra"
 )
@@ -16,8 +16,8 @@ import (
 // saleCmd represents the sale command
 var saleCmd = &cobra.Command{
 	Use:   "sale",
-	Short: "Sale server for qnmahjong",
-	Long:  `Sale server for qnmahjong.`,
+	Short: "Sale server for fkmahjongserver",
+	Long:  `Sale server for fkmahjongserver.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		// TODO: Work your own magic here
 		fmt.Println("sale called")

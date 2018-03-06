@@ -1,14 +1,14 @@
 package msg
 
 import (
-	"qnmahjong/cache"
-	"qnmahjong/def"
-	"qnmahjong/msg/mj/hb"
-	"qnmahjong/msg/mj/kf"
-	"qnmahjong/msg/mj/tdh"
-	"qnmahjong/msg/mj/zz"
-	"qnmahjong/pf"
-	"qnmahjong/util"
+	"github.com/qipaiyouxi/fkmahjongserver/cache"
+	"github.com/qipaiyouxi/fkmahjongserver/def"
+	"github.com/qipaiyouxi/fkmahjongserver/msg/mj/hb"
+	"github.com/qipaiyouxi/fkmahjongserver/msg/mj/kf"
+	"github.com/qipaiyouxi/fkmahjongserver/msg/mj/tdh"
+	"github.com/qipaiyouxi/fkmahjongserver/msg/mj/zz"
+	"github.com/qipaiyouxi/fkmahjongserver/pf"
+	"github.com/qipaiyouxi/fkmahjongserver/util"
 
 	"github.com/olahol/melody"
 )

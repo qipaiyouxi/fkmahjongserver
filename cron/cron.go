@@ -2,12 +2,12 @@ package cron
 
 import (
 	"fmt"
-	"qnmahjong/cache"
-	"qnmahjong/db"
-	"qnmahjong/db/dao"
-	"qnmahjong/def"
-	"qnmahjong/log"
-	"qnmahjong/notice"
+	"github.com/qipaiyouxi/fkmahjongserver/cache"
+	"github.com/qipaiyouxi/fkmahjongserver/db"
+	"github.com/qipaiyouxi/fkmahjongserver/db/dao"
+	"github.com/qipaiyouxi/fkmahjongserver/def"
+	"github.com/qipaiyouxi/fkmahjongserver/log"
+	"github.com/qipaiyouxi/fkmahjongserver/notice"
 
 	"github.com/Sirupsen/logrus"
 	crontab "github.com/robfig/cron"

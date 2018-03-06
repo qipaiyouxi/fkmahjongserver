@@ -2,13 +2,13 @@ package cmd
 
 import (
 	"fmt"
-	"qnmahjong/cache"
-	"qnmahjong/cron"
-	"qnmahjong/db"
-	"qnmahjong/log"
-	"qnmahjong/notice"
-	"qnmahjong/pay"
-	"qnmahjong/util"
+	"github.com/qipaiyouxi/fkmahjongserver/cache"
+	"github.com/qipaiyouxi/fkmahjongserver/cron"
+	"github.com/qipaiyouxi/fkmahjongserver/db"
+	"github.com/qipaiyouxi/fkmahjongserver/log"
+	"github.com/qipaiyouxi/fkmahjongserver/notice"
+	"github.com/qipaiyouxi/fkmahjongserver/pay"
+	"github.com/qipaiyouxi/fkmahjongserver/util"
 
 	"github.com/spf13/cobra"
 )
@@ -16,8 +16,8 @@ import (
 // payCmd represents the pay command
 var payCmd = &cobra.Command{
 	Use:   "pay",
-	Short: "Pay server for qnmahjong",
-	Long:  `Pay server for qnmahjong.`,
+	Short: "Pay server for fkmahjongserver",
+	Long:  `Pay server for fkmahjongserver.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		// TODO: Work your own magic here
 		fmt.Println("pay called")

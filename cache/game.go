@@ -1,9 +1,9 @@
 package cache
 
 import (
-	"qnmahjong/db"
-	"qnmahjong/db/dao"
-	"qnmahjong/def"
+	"github.com/qipaiyouxi/fkmahjongserver/db"
+	"github.com/qipaiyouxi/fkmahjongserver/db/dao"
+	"github.com/qipaiyouxi/fkmahjongserver/def"
 	"sort"
 	"strconv"
 	"strings"

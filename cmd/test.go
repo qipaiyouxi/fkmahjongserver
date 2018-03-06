@@ -2,8 +2,8 @@ package cmd
 
 import (
 	"fmt"
-	"qnmahjong/cache"
-	"qnmahjong/db"
+	"github.com/qipaiyouxi/fkmahjongserver/cache"
+	"github.com/qipaiyouxi/fkmahjongserver/db"
 	"os"
 
 	"github.com/spf13/cobra"

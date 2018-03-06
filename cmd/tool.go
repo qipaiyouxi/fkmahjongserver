@@ -2,13 +2,13 @@ package cmd
 
 import (
 	"fmt"
-	"qnmahjong/cache"
-	"qnmahjong/cron"
-	"qnmahjong/db"
-	"qnmahjong/tool"
-	"qnmahjong/log"
-	"qnmahjong/notice"
-	"qnmahjong/util"
+	"github.com/qipaiyouxi/fkmahjongserver/cache"
+	"github.com/qipaiyouxi/fkmahjongserver/cron"
+	"github.com/qipaiyouxi/fkmahjongserver/db"
+	"github.com/qipaiyouxi/fkmahjongserver/log"
+	"github.com/qipaiyouxi/fkmahjongserver/notice"
+	"github.com/qipaiyouxi/fkmahjongserver/tool"
+	"github.com/qipaiyouxi/fkmahjongserver/util"
 
 	"github.com/spf13/cobra"
 )
@@ -16,8 +16,8 @@ import (
 // toolCmd represents the tool command
 var toolCmd = &cobra.Command{
 	Use:   "tool",
-	Short: "Tool server for qnmahjong",
-	Long:  `Tool server for qnmahjong.`,
+	Short: "Tool server for fkmahjongserver",
+	Long:  `Tool server for fkmahjongserver.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		// TODO: Work your own magic here
 		fmt.Println("tool called")

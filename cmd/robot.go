@@ -2,10 +2,10 @@ package cmd
 
 import (
 	"fmt"
-	"qnmahjong/cron"
-	"qnmahjong/log"
-	"qnmahjong/robot"
-	"qnmahjong/util"
+	"github.com/qipaiyouxi/fkmahjongserver/cron"
+	"github.com/qipaiyouxi/fkmahjongserver/log"
+	"github.com/qipaiyouxi/fkmahjongserver/robot"
+	"github.com/qipaiyouxi/fkmahjongserver/util"
 
 	"github.com/spf13/cobra"
 )
@@ -13,8 +13,8 @@ import (
 // robotCmd represents the robot command
 var robotCmd = &cobra.Command{
 	Use:   "robot",
-	Short: "Robot server for qnmahjong",
-	Long:  `Robot server for qnmahjong.`,
+	Short: "Robot server for fkmahjongserver",
+	Long:  `Robot server for fkmahjongserver.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		// TODO: Work your own magic here
 		fmt.Println("robot called")

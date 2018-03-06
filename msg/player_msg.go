@@ -1,14 +1,14 @@
 package msg
 
 import (
-	"qnmahjong/cache"
-	"qnmahjong/db"
-	"qnmahjong/db/dao"
-	"qnmahjong/def"
-	"qnmahjong/pay"
-	"qnmahjong/pf"
-	"qnmahjong/redis"
-	"qnmahjong/util"
+	"github.com/qipaiyouxi/fkmahjongserver/cache"
+	"github.com/qipaiyouxi/fkmahjongserver/db"
+	"github.com/qipaiyouxi/fkmahjongserver/db/dao"
+	"github.com/qipaiyouxi/fkmahjongserver/def"
+	"github.com/qipaiyouxi/fkmahjongserver/pay"
+	"github.com/qipaiyouxi/fkmahjongserver/pf"
+	"github.com/qipaiyouxi/fkmahjongserver/redis"
+	"github.com/qipaiyouxi/fkmahjongserver/util"
 	"time"
 
 	"github.com/olahol/melody"

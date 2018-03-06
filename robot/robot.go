@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/base64"
 	"fmt"
+	"github.com/qipaiyouxi/fkmahjongserver/pf"
 	"io/ioutil"
-	"qnmahjong/pf"
 	"net/http"
 	"net/url"
 

@@ -3,8 +3,8 @@ package tool
 import (
 	"context"
 	"fmt"
+	"github.com/qipaiyouxi/fkmahjongserver/def"
 	"html/template"
-	"qnmahjong/def"
 	"os"
 	"time"
 

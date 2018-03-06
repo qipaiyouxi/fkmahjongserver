@@ -1,7 +1,7 @@
 package sale
 
 import (
-	"qnmahjong/cache"
+	"github.com/qipaiyouxi/fkmahjongserver/cache"
 	"net/http"
 	"strconv"
 	"time"

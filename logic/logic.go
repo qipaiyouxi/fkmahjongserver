@@ -2,8 +2,8 @@ package logic
 
 import (
 	"fmt"
-	"qnmahjong/def"
-	"qnmahjong/msg"
+	"github.com/qipaiyouxi/fkmahjongserver/def"
+	"github.com/qipaiyouxi/fkmahjongserver/msg"
 	"net/http"
 	"os"
 

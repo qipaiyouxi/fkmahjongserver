@@ -1,0 +1,278 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.go",
+			"settings":
+			{
+				"buffer_size": 1059,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 490.0
+	},
+	"console":
+	{
+		"height": 171.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/workspace/go/src/github.com/qipaiyouxi/fkmahjongserver"
+	],
+	"file_history":
+	[
+		"/E/workspace/go/src/github.com/shuimuliang/qnmahjongserver/.gitignore",
+		"/D/devtools/apache/apache-maven-3.5.2/conf/settings.xml",
+		"/E/workspace/code/Majang/assets/resources/script/lib/HTTP.js",
+		"/E/workspace/go/src/github.com/shuimuliang/qnmahjongserver/cron/cron.go",
+		"/E/workspace/code/beimi/script/beimi.sql",
+		"/E/workspace/code/beimi/data/logs/info/UCKeFu.info.log.2018-03-06.log",
+		"/E/workspace/code/beimi/data/logs/debug/UCKeFu.debug.log.2018-03-06.log",
+		"/E/workspace/code/beimi/data/logs/error/UCKeFu.error.log.2018-03-06.log",
+		"/E/workspace/code/beimi/docker/mysql/conf/mysql_charset.cnf",
+		"/C/Users/lenovo/AppData/Roaming/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/C/ProgramData/MySQL/MySQL Server 5.7/my.ini",
+		"/C/ProgramData/MySQL/MySQL Server 5.7/installer_config.xml",
+		"/E/workspace/code/wenshuyuan/config/config.go",
+		"/E/workspace/code/wenshuyuan/main.go",
+		"/E/workspace/code/wenshuyuan/config/db/migrations/migration.go",
+		"/E/workspace/code/wenshuyuan/config/db/db.go",
+		"/E/workspace/code/wenshuyuan/config/database.example.yml",
+		"/E/workspace/博智信息/项目 - 水井坊/水井坊性能测试结果及脚本/脚本/mobilePhoneNumber.txt",
+		"/E/workspace/go/src/github.com/sundy-li/wechat_autojump_game/README.md",
+		"/C/Users/lenovo/Documents/catalina",
+		"/E/workspace/code/wenshuyuan/README.md",
+		"/C/Users/lenovo/AppData/Roaming/Sublime Text 3/Packages/GoSublime/USAGE.md",
+		"/E/workspace/code/goERP/conf/app.conf",
+		"/E/workspace/code/goERP/main.go",
+		"/E/workspace/code/wenshuyuan/config/application.example.yml",
+		"/E/workspace/code/wenshuyuan/app/stores/stores.go",
+		"/E/workspace/code/wenshuyuan/utils/view.go",
+		"/E/workspace/code/InterfaceTest/caseData.txt",
+		"/E/workspace/code/matplotlib_05_wechat_friend_hitmap/pro_list.txt",
+		"/E/workspace/code/apitest_postman/server_10_127_10_241.postman_environment.json",
+		"/E/workspace/code/api_testing_zxtf/众信泰富.postman_collection.json",
+		"/C/Users/lenovo/AppData/Local/Postman/app-5.5.0/众信泰富.postman_collection.json",
+		"/E/workspace/code/apitest_postman/autotest002.jelly",
+		"/E/workspace/code/apitest_postman/autotest.jelly",
+		"/E/workspace/code/output/新建文本文档.htm",
+		"/C/Users/lenovo/.forever/8FdT.log",
+		"/C/Users/lenovo/.forever/KmpV.log",
+		"/E/workspace/code/apitest_postman/myreport.jelly",
+		"/F/downloads/Roy T.Burns’ Blog.html",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Windows/System32/drivers/etc/services",
+		"/E/workspace/code/vnpy/examples/VnTrader/VT_setting.json",
+		"/E/workspace/code/vnpy/examples/VnTrader/CTP_connect.json",
+		"/E/workspace/code/vnpy/setup.py",
+		"/E/workspace/code/vnpy/examples/VnTrader/ST_setting.json",
+		"/E/workspace/code/vnpy/examples/VnTrader/CTP_connect_带客户端认证.json",
+		"/E/workspace/code/JAQS/config/data_config.json",
+		"/E/新建文本文档.txt",
+		"/E/workspace/code/TradeSim/vnTrader/setting/VT_setting.json",
+		"/E/workspace/code/JAQS/config/trade_config.json",
+		"/E/workspace/code/QUANTAXIS/requirements.txt",
+		"/C/Users/lenovo/.forever/CtSh.log",
+		"/C/Users/lenovo/.forever/j-4H.log",
+		"/D/Program Files/OpenVPN/config/client.ovpn"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.go",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1059,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								568,
+								568
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GoSublime-main-output":
+	{
+		"height": 136.0
+	},
+	"output.GoSublime-output":
+	{
+		"height": 136.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 136.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fkmahjongserver.sublime-project",
+	"replace":
+	{
+		"height": 55.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 316.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

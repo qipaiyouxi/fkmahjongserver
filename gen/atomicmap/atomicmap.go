@@ -1,6 +1,6 @@
 package atomicmap
 
-import "qnmahjong/db/dao"
+import "github.com/qipaiyouxi/fkmahjongserver/db/dao"
 
 // +gen atomicmap
 type Name string

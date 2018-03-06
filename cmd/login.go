@@ -2,12 +2,12 @@ package cmd
 
 import (
 	"fmt"
-	"qnmahjong/cron"
-	"qnmahjong/db"
-	"qnmahjong/log"
-	"qnmahjong/login"
-	"qnmahjong/notice"
-	"qnmahjong/util"
+	"github.com/qipaiyouxi/fkmahjongserver/cron"
+	"github.com/qipaiyouxi/fkmahjongserver/db"
+	"github.com/qipaiyouxi/fkmahjongserver/log"
+	"github.com/qipaiyouxi/fkmahjongserver/login"
+	"github.com/qipaiyouxi/fkmahjongserver/notice"
+	"github.com/qipaiyouxi/fkmahjongserver/util"
 
 	"github.com/spf13/cobra"
 )
@@ -15,8 +15,8 @@ import (
 // loginCmd represents the login command
 var loginCmd = &cobra.Command{
 	Use:   "login",
-	Short: "Login server for qnmahjong",
-	Long:  `Login server for qnmahjong.`,
+	Short: "Login server for fkmahjongserver",
+	Long:  `Login server for fkmahjongserver.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		// TODO: Work your own magic here
 		fmt.Println("login called")
